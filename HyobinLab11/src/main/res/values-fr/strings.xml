@@ -2,4 +2,8 @@
 <resources>
     <string name="app_name">Hyobin Im s991526068</string>
     <string name="label_main">Bienvenu Hyobin Im s991526068</string>
+    <string name="button_toast">Toast De Bouton</string>
+    <string name="button_snackbar">Bouton Snackbar</string>
+    <string name="toast_label">Hyobin Im www.youtube.com</string>
+    <string name="site_label">https://www.youtube.com</string>
 </resources>

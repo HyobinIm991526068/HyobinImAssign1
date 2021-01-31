@@ -7,6 +7,31 @@
     android:background="@color/light_blue"
     tools:context=".HyobinActivity">
 
+    <Button
+        android:id="@+id/buttonToast"
+        android:layout_width="222dp"
+        android:layout_height="78dp"
+        android:text="@string/button_toast"
+        android:onClick="callIntent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.554" />
+
+    <Button
+        android:id="@+id/buttonSnackbar"
+        android:layout_width="222dp"
+        android:layout_height="78dp"
+        android:text="@string/button_snackbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
     <TextView
         android:id="@+id/hyobinTV"
         android:layout_width="wrap_content"
@@ -29,7 +54,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.31"
+        app:layout_constraintVertical_bias="0.336"
         tools:ignore="LabelFor,MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
