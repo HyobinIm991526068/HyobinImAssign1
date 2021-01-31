@@ -1,6 +1,5 @@
 <!-- Hyobin Im s991526068 -->
 <resources>
     <string name="app_name">Hyobin Im s991526068</string>
-    <string name="button_submit">Submit</string>
-    <string name="label_main">Hello World!</string>
+    <string name="label_main">Welcome Hyobin Im s991526068</string>
 </resources>
