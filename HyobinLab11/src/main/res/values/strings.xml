@@ -7,4 +7,6 @@
     <string name="toast_label">Hyobin Im www.youtube.com</string>
     <string name="site_label">https://www.youtube.com</string>
     <string name="label_second">My Second Screen Hyobin Im s991526068</string>
+    <string name="snackbar_label">Hyobin Im ImActivity</string>
+    <string name="action_text">Action</string>
 </resources>

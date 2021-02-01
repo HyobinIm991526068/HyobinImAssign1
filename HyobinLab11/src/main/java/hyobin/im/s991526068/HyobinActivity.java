@@ -39,8 +39,10 @@ public class HyobinActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.buttonSnackbar:
-                Snackbar.make(view, "The snackbar was clicked", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Context contextTwo = getApplicationContext();
+                CharSequence textTwo = getString(R.string.snackbar_label);
+                Snackbar.make(view, textTwo, Snackbar.LENGTH_LONG)
+                        .setAction(R.string.action_text, null).show();
                 intent = new Intent(this, ImActivity.class);
                 startActivity(intent);
             default:
