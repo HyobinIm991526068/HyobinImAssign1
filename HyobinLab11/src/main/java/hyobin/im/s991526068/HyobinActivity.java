@@ -11,11 +11,13 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 
 public class HyobinActivity extends AppCompatActivity {
+    public static final String userInput="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,10 +46,12 @@ public class HyobinActivity extends AppCompatActivity {
                 Snackbar.make(view, textTwo, Snackbar.LENGTH_LONG)
                         .setAction(R.string.action_text, null).show();
                 intent = new Intent(this, ImActivity.class);
+                EditText editText = (EditText) findViewById(R.id.editText);
+                String message =editText.getText().toString();
+                intent.putExtra(userInput, message);
                 startActivity(intent);
             default:
                 break;
-
         }
     }
 }
